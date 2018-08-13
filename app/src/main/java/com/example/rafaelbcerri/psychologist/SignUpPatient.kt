@@ -11,6 +11,11 @@ class SignUpPatient : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_sign_up_patient)
 
+        signUpButton.setOnClickListener() {
+            val homePatientActivity = Intent(baseContext, HomePatient::class.java)
+            startActivity(homePatientActivity)
+        }
+
         loginButton.setOnClickListener() {
             val loginActivity = Intent(baseContext, Login::class.java)
             startActivity(loginActivity)

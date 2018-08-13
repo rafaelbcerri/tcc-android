@@ -15,13 +15,11 @@ class EditPsychologist : AppCompatActivity() {
         setContentView(R.layout.activity_edit_psychologist)
     }
 
-    // create an action bar button
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
         menuInflater.inflate(R.menu.menu_done, menu)
         return super.onCreateOptionsMenu(menu)
     }
 
-    // handle button activities
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         val id = item.getItemId()
 

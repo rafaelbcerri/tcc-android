@@ -16,7 +16,6 @@ class SignUpPsychologist : AppCompatActivity() {
             startActivity(loginActivity)
         }
 
-
         signUpButton.setOnClickListener() {
             val editPsychologistActivity = Intent(baseContext, EditPsychologist::class.java)
             startActivity(editPsychologistActivity)

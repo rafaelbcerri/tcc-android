@@ -34,9 +34,11 @@
         <activity android:name=".HomePatient"  android:theme="@style/AppTheme">
         </activity>
 
-        <activity android:name=".Search"  android:theme="@style/AppTheme">
+        <activity android:name=".PerfilPsychologist"  android:theme="@style/AppTheme">
         </activity>
 
+        <activity android:name=".Search"  android:theme="@style/AppTheme">
+        </activity>
 
         <activity android:name=".EditPsychologist"  android:theme="@style/AppTheme">
         </activity>
