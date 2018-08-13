@@ -7,11 +7,11 @@ import android.view.MenuItem
 import android.widget.Toast
 
 
-class HomePsychologist : AppCompatActivity() {
+class HomePatient : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_home_psychologist)
+        setContentView(R.layout.activity_home_patient)
     }
 
 }

@@ -10,6 +10,7 @@ class PerfilPsychologist : AppCompatActivity() {
         setContentView(R.layout.activity_perfil_psychologist)
 
         val actionBar = supportActionBar
+
         if (actionBar != null) {
             actionBar.setDisplayHomeAsUpEnabled(true)
         }

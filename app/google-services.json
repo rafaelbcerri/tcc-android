@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1083743582912",
+    "firebase_url": "https://psycologist-site.firebaseio.com",
+    "project_id": "psycologist-site",
+    "storage_bucket": "psycologist-site.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1083743582912:android:2740c002ef828c5c",
+        "android_client_info": {
+          "package_name": "com.example.rafaelbcerri.psychologist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1083743582912-rsjbi2j7in8qvldegcgq35qfle7k4pc6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rafaelbcerri.psychologist",
+            "certificate_hash": "8650b119b93cf934af656d3f53f9a8b78c418f7c"
+          }
+        },
+        {
+          "client_id": "1083743582912-ilqfvaj896u2tfg557kiatqd5hf9lego.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWFAeYRQ8hR-r9qjRWwnNEYKm-vcCr-es"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1083743582912-ilqfvaj896u2tfg557kiatqd5hf9lego.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
