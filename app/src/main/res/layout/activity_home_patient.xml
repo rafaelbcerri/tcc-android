@@ -1,33 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@android:color/background_light"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:gravity="center_horizontal"
-    android:orientation="vertical">
+    android:layout_height="match_parent">
 
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:gravity="center"
-        android:text="Sua consultas irão aparecer aqui" />
+        android:text="Sua consultas irão aparecer aqui"
+        android:textColor="@android:color/black"
+        android:textSize="18dp" />
 
 
     <android.support.design.widget.FloatingActionButton
-        android:id="@+id/fab"
-        android:layout_width="47dp"
-        android:layout_height="45dp"
-        android:layout_gravity="bottom|end"
-        android:background="#006699"
-        android:cropToPadding="false"
-        android:src="@android:drawable/ic_dialog_info"
-        app:borderWidth="0dp"
+        android:id="@+id/fabSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:layout_marginBottom="24dp"
+        android:layout_marginRight="24dp"
+        android:background="@android:color/holo_blue_light"
+        android:src="?android:attr/actionModeWebSearchDrawable"
+        android:tint="@android:color/white"
+        android:backgroundTint="@android:color/holo_blue_light"
         app:elevation="6dp"
+        app:fabSize="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
         app:pressedTranslationZ="12dp"
-        app:fabSize="normal"/>
+        tools:targetApi="lollipop" />
 
 
 
-</LinearLayout>
+</android.support.constraint.ConstraintLayout>
