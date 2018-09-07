@@ -44,7 +44,7 @@
         android:textColor="@android:color/black"
         android:textSize="18dp"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/idade" />
+        app:layout_constraintTop_toBottomOf="@+id/valor" />
 
     <TextView
         android:id="@+id/endereco"
@@ -59,7 +59,7 @@
         app:layout_constraintTop_toBottomOf="@+id/valor" />
 
     <TextView
-        android:id="@+id/idade"
+        android:id="@+id/valor"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
